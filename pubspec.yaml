@@ -1,0 +1,73 @@
+name: xangdau_app
+description: Ứng dụng mua bán xăng dầu.
+
+# Ngăn không cho ứng dụng được xuất bản lên pub.dev
+publish_to: 'none'
+
+# Phiên bản ứng dụng
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Icons và UI
+  cupertino_icons: ^1.0.6
+  
+  # Kết nối MongoDB
+  mongo_dart: ^0.10.0
+  
+  # Quản lý state
+  provider: ^6.1.2
+  
+  # Lưu trữ local
+  shared_preferences: ^2.2.2
+  
+  # Định dạng ngày và tiền tệ
+  intl: ^0.19.0
+  
+  # Chọn và xử lý hình ảnh
+  image_picker: ^1.0.7
+  cached_network_image: ^3.3.1
+  
+  # Tạo ID
+  uuid: ^4.3.3
+  
+  # Hỗ trợ đa ngôn ngữ
+  flutter_localizations:
+    sdk: flutter
+    
+  # Mã hóa mật khẩu
+  crypto: ^3.0.3
+  
+  # Tạo và in hóa đơn PDF
+  pdf: ^3.10.7
+  printing: ^5.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true
+  
+  # Hình ảnh và tài nguyên
+  assets:
+    - assets/images/
+
+  # Fonts
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+
+
