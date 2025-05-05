@@ -1,4 +1,3 @@
-// widgets/gas_station_image.dart
 import 'dart:convert';
 import 'package:flutter/material.dart';
 

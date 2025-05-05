@@ -1,10 +1,9 @@
-// services/database_service.dart
 import 'package:mongo_dart/mongo_dart.dart';
 
 class DatabaseService {
   static const String CONNECTION_STRING =
-      '';
-  static const String DB_NAME = '';
+      'mongodb+srv://caoman26:qCDssznMeLo7omGH@cluster0.cfmbjpd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+  static const String DB_NAME = 'xangdau_db';
   static final DatabaseService _instance = DatabaseService._internal();
   Db? _db;
 

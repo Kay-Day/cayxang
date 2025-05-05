@@ -1,4 +1,3 @@
-// screens/auth/register_screen.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:xangdau_app/services/config/constants.dart';

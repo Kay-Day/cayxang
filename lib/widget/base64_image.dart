@@ -1,4 +1,3 @@
-// widgets/base64_image.dart
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import '../utils/image_utils.dart';

@@ -1,6 +1,5 @@
-// config/constants.dart
 class AppConstants {
-  // Tên ứng dụng
+
   static const String appName = 'Xăng Dầu App';
 
   // Các loại xăng dầu

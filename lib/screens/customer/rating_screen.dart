@@ -1,4 +1,3 @@
-// screens/customer/rating_screen.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:mongo_dart/mongo_dart.dart' as mongo;

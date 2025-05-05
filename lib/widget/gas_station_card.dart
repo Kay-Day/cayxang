@@ -1,4 +1,3 @@
-// widgets/gas_station_card.dart
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import '../../models/gas_station.dart';
